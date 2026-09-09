@@ -1,8 +1,14 @@
 # osai-arsenal
 
-AI red team toolkit aligned to the OffSec **AI-300 (OSAI)** syllabus — v1.
+AI red team toolkit aligned to the OffSec **AI-300 (OSAI)** syllabus — v2.
 For authorized use only: AI-300 labs, the OSAI exam, and infrastructure you
 own or are explicitly permitted to test.
+
+**New in v2:** `harness/` — the exam-grade AI-orchestration kit (planner/executor
+prompts, `engage.py` state tracker with snapshot/reset protocol, evidence
+discipline checklist). Built from 2026 pass-report meta: enumeration first,
+context resets beat arguing, log every attempt, verify before documenting.
+See `harness/README.md`.
 
 ## What's in v1
 
@@ -68,6 +74,3 @@ for the report, then mine the JSONL for the winning payloads.
 - **Rogue MCP server** — a deliberately malicious MCP server to rehearse tool-poisoning and rug-pull attacks end to end
 - **Supply-chain lab** — scanner for malicious pickle/safetensors artifacts and dependency tampering
 - **Report auto-builder** — turn `capture.sh` logs + JSONL into a pre-filled report skeleton
-#   O S A I - a r s e n a l 
- 
- 
